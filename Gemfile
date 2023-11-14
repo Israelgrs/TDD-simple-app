@@ -34,10 +34,13 @@ gem 'bootsnap', '>= 1.4.4', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'capybara'
+  # gem 'chromedriver-helper'
   gem 'factory_bot_rails'
   gem 'faker'
   gem 'rails-controller-testing'
   gem 'rspec-rails', '~> 6.0.0'
+  gem 'selenium-webdriver', '~> 3.6.0'
   gem 'shoulda-matchers', '~> 5.0'
   gem 'spring-commands-rspec'
   gem 'vcr'
